@@ -20,10 +20,14 @@
 
     <Button
         android:id="@+id/buttonRandom"
-        android:text="Random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="teste"
+        android:text="Random"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:padding="20dp"
+        style="@style/ButtonStyle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
